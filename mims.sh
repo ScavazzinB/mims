@@ -8,6 +8,7 @@ URL_TO_OPEN="https://www.youtube.com/watch?v=B2N4F7K2TZc" # Modifier selon les b
 mkdir -p "$HOME/.local/bin"
 cat << EOF > "$HOME/.local/bin/${SERVICE_NAME}.sh"
 #!/bin/bash
+set -x
 xdg-open "${URL_TO_OPEN}"
 EOF
 
@@ -31,7 +32,7 @@ cat << EOF > "$HOME/.config/systemd/user/${SERVICE_NAME}.timer"
 Description=Timer to open a web browser every ${TIMER_INTERVAL}
 
 [Timer]
-OnBootSec=5min
+OnStartupSec=5min
 OnUnitActiveSec=${TIMER_INTERVAL}
 Unit=${SERVICE_NAME}.service
 
