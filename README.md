@@ -1,8 +1,10 @@
 Guide d'Utilisation de mims :3
+
 Introduction
 
-Bienvenue dans le guide d'utilisation du mims, un outil conçu pour lancer youtube dans un laps de temps afin dêtre toujour cute/kawaiinee~~~ 
+Bienvenue dans le guide d'utilisation du mims, un outil conçu pour lancer youtube dans un laps de temps afin dêtre toujour cute/kawaiinee~~~
 Ce guide vous fournira toutes les instructions nécessaires pour configurer et utiliser efficacement #nerd.
+
 Prérequis
 
 Avant de commencer, assurez-vous que vous disposez des éléments suivants :
